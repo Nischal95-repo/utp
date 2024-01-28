@@ -20,11 +20,12 @@ const Marker = (props) => {
 };
 function MapContainer() {
 	return (
-		<div style={{ height: '60vh', width: '100%' }}>
+		<div style={{ height: '35vh', width: '100%' }}>
 			<GoogleMapReact
 				bootstrapURLKeys={{ key: 'AIzaSyBjlwvfiPfWzuDQLsGrGcxYAiUxFDsyUqA' }}
-				defaultCenter={{ lat: 12.955620971719103, lng: 77.56396856564696 }}
-				defaultZoom={13}
+				// defaultCenter={{ lat: 12.955620971719103, lng: 77.56396856564696 }}
+				defaultCenter={{ lat: 12.956527562373685, lng: 77.57030211278646 }}
+				defaultZoom={12}
 			>
 				<Marker
 					lat={12.945240857960632}
